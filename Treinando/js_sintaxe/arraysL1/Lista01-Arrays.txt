@@ -1,0 +1,96 @@
+1. Crie um array chamado frutas contendo:
+"Maçã", "Banana", "Laranja" e "Uva".
+Depois mostre o array inteiro no console.
+
+
+2. Usando o array da questão anterior, mostre separadamente:
+- A primeira fruta
+- A segunda fruta
+- A última fruta
+
+
+3. Crie:
+let nomes = ["Gustavo", "João", "Pedro", "Carlos"];
+
+Troque "Pedro" por "Lucas".
+Depois mostre o array.
+
+
+4. Crie:
+let numeros = [10, 20, 30];
+
+Adicione 40 e depois 50 ao final do array.
+Resultado esperado:
+[10, 20, 30, 40, 50]
+
+
+5. Crie:
+let animais = ["Cachorro", "Gato", "Cavalo", "Leão"];
+
+Remova o último animal.
+Depois mostre o array.
+
+
+6. Crie:
+let alunos = ["Ana", "Bruno", "Carlos", "Daniel", "Eduardo"];
+
+Mostre no console:
+Quantidade de alunos: 5
+
+Não conte manualmente. Use uma propriedade do Array.
+
+
+7. Crie:
+let numeros = [5, 10, 15, 20, 25];
+
+Faça um programa que mostre cada número separadamente:
+
+5
+10
+15
+20
+25
+
+
+8. Crie:
+let numeros = [10, 20, 30, 40, 50];
+
+Faça um programa que calcule a soma de todos os números.
+
+Resultado:
+Soma: 150
+
+
+9. Crie:
+let numeros = [3, 8, 11, 20, 25, 30, 41, 50];
+
+Percorra o array e mostre somente os números pares.
+
+Resultado:
+8
+20
+30
+50
+
+
+10. Crie:
+let notas = [7, 8, 5, 9, 6];
+
+O programa deve:
+
+1. Mostrar todas as notas;
+2. Calcular a soma das notas;
+3. Calcular a média;
+4. Informar se o aluno foi aprovado ou reprovado.
+
+Considere:
+
+Média >= 7 → Aprovado
+Média < 7 → Reprovado
+
+Saída esperada:
+
+Notas: 7, 8, 5, 9, 6
+Soma: 35
+Média: 7
+Aprovado

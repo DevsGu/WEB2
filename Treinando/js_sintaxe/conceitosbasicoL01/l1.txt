@@ -1,0 +1,48 @@
+🧠 5 questões básicas de JavaScript
+
+1. Variáveis
+Crie três variáveis:
+
+nome
+idade
+cidade
+
+Atribua valores a elas e mostre todas no console.
+
+2. Operações matemáticas
+Crie duas variáveis n1 e n2.
+
+Mostre no console:
+
+soma
+subtração
+multiplicação
+divisão
+
+3. Entrada de dados
+Utilizando prompt(), peça ao usuário:
+
+seu nome
+sua idade
+
+Depois mostre no console uma mensagem contendo essas duas informações.
+
+💡 Lembre-se: o prompt() retorna texto.
+
+4. Condicional
+Peça ao usuário sua idade.
+
+Se a idade for 18 ou maior, mostre:
+
+Maior de idade
+
+Caso contrário, mostre:
+
+Menor de idade
+
+5. Função ⭐
+Crie uma função chamada calcularMedia que receba três notas como parâmetros.
+
+A função deve calcular a média das três notas e retornar o resultado.
+
+Depois, chame a função e mostre a média no console.
