@@ -1,0 +1,53 @@
+1. Crie um objeto chamado "aluno" contendo:
+- nome
+- idade
+- curso
+- nota
+
+Depois mostre cada propriedade separadamente no console.
+
+
+2. Crie:
+
+let produto = {
+    nome: "Mouse",
+    preco: 50,
+    estoque: 10
+};
+
+Altere o preço para 75 e o estoque para 8.
+Depois mostre o objeto atualizado.
+
+
+3. Crie um objeto chamado "carro" contendo:
+- marca
+- modelo
+- ano
+
+Depois crie uma nova propriedade chamada "cor".
+Em seguida, mostre todas as informações do carro.
+
+
+4. Crie:
+
+let aluno = {
+    nome: "Gustavo",
+    idade: 28,
+    nota: 8
+};
+
+Utilizando if, verifique se o aluno foi aprovado.
+
+Regra:
+nota >= 7 → Aprovado
+nota < 7 → Reprovado
+
+
+5. Crie um Array contendo 3 objetos de alunos.
+
+Cada aluno deve possuir:
+- nome
+- idade
+- nota
+
+Depois percorra o Array e mostre o nome e a nota de cada aluno.
