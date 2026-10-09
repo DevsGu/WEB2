@@ -1,0 +1,25 @@
+## FIND() — 5 exercícios
+
+**1. Fácil — Encontrar um produto**
+
+Encontre o primeiro produto cujo nome seja `"Teclado"`. Exiba o objeto encontrado com `console.log()`.
+
+**2. Fácil — Encontrar um aluno**
+
+Encontre o aluno chamado `"Carlos"` e mostre sua nota.
+
+**3. Médio — Produto por preço**
+
+Encontre o primeiro produto cujo preço seja maior que R$ 150. Exiba seu nome e preço.
+
+**4. Médio — Primeiro aluno aprovado**
+
+Encontre o primeiro aluno com nota maior ou igual a 7. Exiba seu nome e sua nota.
+
+**5. Desafio — Produto sem estoque**
+
+Encontre o primeiro produto cujo estoque seja igual a zero.
+
+Se encontrar, mostre `"Produto sem estoque: Webcam"`. Se não encontrar nenhum, mostre `"Nenhum produto sem estoque"`.
+
+Dica: lembre-se de que `find()` retorna `undefined` quando não encontra um elemento.
