@@ -1,0 +1,56 @@
+1. Crie uma função chamada "saudacao" que receba um nome como parâmetro.
+
+Ao chamar:
+
+saudacao("Gustavo");
+
+Deve aparecer:
+
+Olá, Gustavo!
+
+
+2. Crie uma função chamada "somar" que receba dois números e retorne a soma deles.
+
+Exemplo:
+
+somar(10, 5);
+
+Resultado esperado:
+
+15
+
+
+3. Crie uma função chamada "verificarIdade" que receba uma idade.
+
+A função deve informar:
+
+idade >= 18 → "Maior de idade"
+idade < 18 → "Menor de idade"
+
+
+4. Crie uma função chamada "calcularMedia" que receba 3 notas.
+
+A função deve:
+- calcular a média;
+- retornar a média.
+
+Depois mostre o resultado no console.
+
+
+5. 🧠 DESAFIO
+
+Crie uma função chamada "calcularTotal".
+
+Ela deve receber um Array de objetos de produtos:
+
+[
+    { nome: "Mouse", preco: 50 },
+    { nome: "Teclado", preco: 100 },
+    { nome: "Monitor", preco: 800 }
+]
+
+A função deve percorrer os produtos e calcular o valor total.
+
+Resultado esperado:
+
+Total: 950
