@@ -1,0 +1,32 @@
+## MAP() — 5 exercícios
+
+**1. Fácil — Lista de nomes**
+
+Usando o array `produtos`, crie um novo array chamado `nomes` contendo somente os nomes dos produtos. Exiba o resultado com `console.log()`.
+
+**2. Fácil — Preços com desconto**
+
+Crie um array chamado `precosDesconto` contendo os preços de todos os produtos com 10% de desconto. Não altere o array original.
+
+**3. Médio — Dados dos alunos**
+
+Usando o array `alunos`, crie um novo array chamado `nomesMaiusculos` contendo os nomes de todos os alunos em letras maiúsculas.
+
+Dica: pesquise ou utilize o método `toUpperCase()`.
+
+**4. Médio — Descrições dos produtos**
+
+Crie um array chamado `descricoes` em que cada elemento seja uma frase no formato:
+
+`"Mouse custa R$ 50"`
+
+Utilize template literals (crases e `${}`).
+
+**5. Desafio — Situação dos alunos**
+
+Crie um array chamado `situacoes` que contenha uma frase para cada aluno:
+
+* Nota maior ou igual a 7: `"Ana foi aprovada"`
+* Nota menor que 7: `"Bruno foi reprovado"`
+
+Utilize `map()` e uma estrutura condicional dentro da callback.
