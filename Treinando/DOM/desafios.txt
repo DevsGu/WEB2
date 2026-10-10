@@ -1,0 +1,5 @@
+🎯 Próximo desafio: contador interativo
+
+Você vai construir uma página com três botões: Aumentar, Diminuir e 
+Zerar. O número exibido na tela será atualizado a cada clique.
+

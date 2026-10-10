@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador interativo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        button1 {
+            padding: 12px 20px;
+            cursor: pointer;
+        }   
+        button2 {
+            padding: 12px 20px;
+            cursor: pointer;
+        }  
+
+        button {
+            padding: 12px 20px;
+            cursor: pointer;
+        }  
+
+    </style>
+</head>
+
+<body>
+
+    <h1 id="titulo">Olá, programador!</h1>
+
+    <p id="valor">0</p>
+
+    <button id="botao1">+</button>
+    <button id="botao2">-</button>
+    <button id="botao">Zerar</button>
+
+    <script>
+        let contador = 0;
+
+        let valor_contador = document.getElementById("valor");
+        let btn1 = document.getElementById("botao1");
+        let btn2 = document.getElementById("botao2");
+        let btnZerar = document.getElementById("botao");
+
+        btn1.addEventListener("click", function() {
+            contador += 1;
+            valor_contador.textContent = contador;
+        });
+
+        btn2.addEventListener("click", function() {
+            contador -= 1;
+            valor_contador.textContent = contador;
+        });
+
+        btnZerar.addEventListener("click", function() {
+            contador = 0;
+            valor_contador.textContent = contador;
+        });
+    </script>
+
+</body>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro evento</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        button {
+            padding: 12px 20px;
+            cursor: pointer;
+        }   
+    </style>
+</head>
+<body>
+
+    <h1 id="titulo">Olá, programador!</h1>
+
+    <button id="botao">Clique aqui</button>
+
+    <script>
+        let titulo = document.getElementById("titulo");
+        let botao = document.getElementById("botao");
+
+        botao.addEventListener("click", function() {
+            titulo.textContent = "Você acabou de usar um evento!";
+        });
+    </script>
+
+</body>
+</html>
