@@ -1,0 +1,33 @@
+## REDUCE() — 5 exercícios
+
+**1. Fácil — Soma dos preços**
+
+Usando o array `produtos`, calcule a soma dos preços de todos os produtos.
+
+Resultado esperado: `1300`.
+
+**2. Fácil — Soma das notas**
+
+Usando o array `alunos`, calcule a soma de todas as notas.
+
+**3. Médio — Valor total do estoque**
+
+Calcule o valor total do estoque de todos os produtos.
+
+Para cada produto, multiplique o preço pela quantidade disponível:
+
+`preco * estoque`
+
+Depois, some os valores de todos os produtos.
+
+**4. Médio — Quantidade total de itens**
+
+Calcule quantas unidades existem no estoque, somando a propriedade `estoque` de todos os produtos.
+
+**5. Desafio — Média da turma**
+
+Utilize `reduce()` para somar as notas dos alunos e calcule a média dividindo a soma pela quantidade de alunos.
+
+Exiba a média final usando `console.log()`.
+
+Dica: use `alunos.length` para obter a quantidade de alunos e inicialize o acumulador do `reduce()` com `0`.
